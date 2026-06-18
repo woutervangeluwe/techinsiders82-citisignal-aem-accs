@@ -112,6 +112,20 @@
               }
             }
           }
+        },{
+          "title": "BrandConcierge",
+          "id": "brandconcierge",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "BrandConcierge",
+                  "model": "brandconcierge"
+                }
+              }
+            }
+          }
         },
         {
           "title": "Card",
@@ -128,22 +142,6 @@
             }
           }
         },
-        {
-  "title": "BrandConcierge",
-  "id": "brandconcierge",
-  "plugins": {
-    "xwalk": {
-      "page": {
-        "resourceType": "core/franklin/components/block/v1/block",
-        "template": {
-          "name": "BrandConcierge",
-          "model": "brandconcierge"
-        }
-      }
-    }
-  }
-},
-
         {
           "title": "Columns",
           "id": "columns",
